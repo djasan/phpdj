@@ -27,4 +27,4 @@ $routes = [
     '/sorties_stock/register' => 'controllers/sorties_stock/register.php'
 ];
 
-];
+require '../config/fonction.php';

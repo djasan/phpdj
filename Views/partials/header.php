@@ -1,4 +1,15 @@
 <!-- header.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="public/assets/css/register.css">
+    <title>Document</title>
+</head>
+
+    
 
 <header>
     <h1>Votre Site de Vente de Champagne, Vins et Spiritueux</h1>

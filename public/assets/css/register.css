@@ -1,0 +1,46 @@
+/* Add styles specific to the registration page */
+
+/* Header styles */
+.register-header {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form styles */
+.register-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles for the registration form */
+@media (max-width: 768px) {
+    .register-form {
+        max-width: 100%;
+    }
+}
